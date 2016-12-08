@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <meta charset=utf-8 />
+      <title>Page Demo</title>
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script>
+         $(function(){
+         	$(document).ready(function(){
+         		$("#pop").animate({'left':0}, "slow");		 
+         		$("#pop").animate({'right':($('body').innerWidth()-$('#pop').width())}, 'slow');
+         	});
+         })
+      </script>
+   </head>
+   <body>
+      <div class="headerContent">
+         <a href="#" class="aa"><strong>YOURSTORE.COM</strong></a>
+      </div>
+      <h1>Hello, there!</h1>
+      <h2>This page represents popup window which slides from right side.</h2>
+      <div id="pop">
+         <button id="close" onclick="document.getElementById('pop').style.display='none'">X</button>
+         <img src="images/b3.jpg" alt="image-demo" width="200" height="200">
+      </div>
+   </body>
+</html>

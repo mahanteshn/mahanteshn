@@ -1,0 +1,32 @@
+#pop{
+   background:#615C5B;
+   bottom:5%;
+   left:80%;
+   border:2px solid;
+   border-radius:5px;
+   padding:10px;
+   display: block;
+   position: fixed;
+}
+
+#close{
+    float:right;
+}
+
+body{
+	background-color:#87625B;
+    margin:0
+}
+
+.headerContent{
+    background-color: rgb(204,204,204);
+    padding: 14px 16px;
+}
+
+.aa{
+   text-decoration: none;
+   color:black;
+}
+
+
+
